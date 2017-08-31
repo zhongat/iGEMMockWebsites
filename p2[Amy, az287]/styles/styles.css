@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #D0FFF4;
+}
+
+.nav_bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ED47A0;
+    z-index: 1;
+}
+
+.nav_bar li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 24px 20px;
+    text-decoration: none;
+    font-size: 105%;
+}
+
+/*dropdown menu code*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    padding: 0;
+    background-color: #ED47A0;
+    min-width: 232px;
+    z-index: 1;
+}
+
+.dropdown_content li {
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    min-width: 232px;
+}
+
+.dropdown_content li a {
+    padding: 12px 0;
+    color: #FFFFFF;
+}
+
+.dropdown_content li:hover {
+    background-color: #FFFFFF;
+}
+
+.dropdown_content li:hover a {
+    color: #ED47A0;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+/*dropdown menu code*/
+
+h1 {
+    margin-top: 8%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 285%;
+    color: #759DBA;
+}
+
+h2 {
+    margin-top: 85px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #759DBA;
+    font-size: 170%;
+    font-weight: 300;
+}
+
+p {
+    margin: 30px 0;
+    padding: 0 5%;
+    font-size: 110%;
+    line-height: 150%;
+}
+
+.co-cult_img {
+    display: block;
+    margin: auto;
+    height: 298.4px;
+    width: 344px;
+}
+
+.click {
+    margin: 10px 0 0 0;
+    color: #759DBA;
+    text-align: center;
+}
+
+#cc_p1, #cc_p2 {
+    display: none;
+}
+
+#cc_img1:click #cc_p1, #cc_img2:click #cc_p2 {
+    display: block;
+}
+
+.app {
+    float: left;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color: #000000;
+}
+
+.app_img {
+    display: none;
+    float: inherit;
+    height: 200px;
+    width: 200px;
+}
+
+.app:hover p {
+    display: none;
+}
+
+.app:hover .app_img {
+    display: block;
+}
+
+#head {
+    margin-bottom: 10px;
+    font-size: 165%;
+    line-height: 110%;
+}
+
+#sub {
+    margin: 0;
+    font-size: 75%;
+}
+
+.app1, .app2 {
+    padding: 0 5.13%;
+}
+
+.shift {
+    margin-right: 33px; 
+}
+
+#financials {
+    background-color: #4772B2;
+}
+
+#health {
+    background-color: #ADDCB9;
+}
+
+#staples {
+    background-color: #6F7C91;
+}
+
+#industries {
+    background-color: #D89E78;
+}
+
+#discretionary {
+    background-color: #D3B0BE;
+}
+
+#energy {
+    background-color: #DE8787;
+}
+
+#materials {
+    background-color: #F9EBB1;   
+}
+
+#utilities {
+    background-color: #65C1AF;
+}
+
+#telecom {
+    background-color: #9C7E8A;
+}
+
+#IT {
+    background-color: #FFCCAA;
+}
+
+#financials #head, #industries #head, #telecom #head {
+    margin-top: 57px;
+}
+
+#health #head, #energy #head, #materials #head, #utilities #head {
+    margin-top: 69px;   
+}
+
+#staples #head, #discretionary #head, #IT #head {
+    margin-top: 53px;
+}
+
+.mod1, .mod3 {
+    float: left;
+    padding-left: 5%;
+}
+
+.mod2 {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.mod {
+    position: relative;
+}
+
+.mod_caption1 p, .mod_caption3 p {
+    display: none;
+    position: absolute;
+    left: 7.5%;
+    margin-top: 65px;
+    color: #000000;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.mod_2 {
+    position: relative;
+}
+
+.mod_caption2 p {
+    display: none;
+    position: absolute;
+    right: 7%;
+    margin-top: 65px;
+    color: #000000;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.mod_img {
+    width: 20%;
+}
+
+.mod_content {
+    width: 70%;
+}
+
+.mod1 p {
+    padding-top: 12px;
+}
+
+.mod2_img {
+    width: 30%;
+}
+
+.mod2_content {
+    float: left;
+    margin: auto;
+    padding-left: 1.7%;
+    width: 65%;
+}
+
+.mod2 p {
+    padding-top: 27px;
+}
+
+.mod3 p {
+    padding-top: 15px;
+}
+
+.module_img {
+    position: relative;
+    height: 188.75px;
+    width: 327px;
+}
+
+.mod1 img, .mod2 img, .mod3 img {
+    opacity: 1.0;
+}
+
+.full_module_img img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    height: 376.25px;
+    width: 815.71px;
+}

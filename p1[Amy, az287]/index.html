@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>legendairy: Product Development - App</title>
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet" type="text/css" href="styles/mobile.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div class="nav_bar">
+            <img src="http://2016.igem.org/wiki/images/3/32/T--Cornell_NY--OpeningLogo.png" class="legendairy_logo">
+            
+            <div class="nav_pages">
+                <p><a href="home.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="file:///C:/Users/amyz1/HTMLClass/p1[Amy,%20az287]/index.html">TECHNOLOGY</a> | <a href="human-centereddesign.html">HUMAN-CENTERED DESIGN</a> | <a href="communityengagement.html">COMMUNITY ENGAGEMENT</a> | <a href="ourteam.html">OUR TEAM</a></p>
+            </div>
+        </div>
+        
+        <div class="cowscope top bottom">
+            <h1>Cowscope</h1>
+            
+            <h6>A COW-SIDE SOMATIC CELL COUNTER AND DATA LOG</h6>
+        </div>
+        
+        <div class="overview top bottom">
+            <h2>Overview</h2>
+            
+            <p class="first">Cowscope is designed to help farmers better manage mastitis on their farms. We consulted with a dozen local farmers to build an app that has maximum impact in detecting the disease and providing useful data for tracking trends in cow health.</p>
+            
+            <p>Cowscope is made up of three sections: the Somatic Cell Counter with on-the-farm mobile microscope attachment, the Cost Calculator, and Cow Data. Each section focuses on a different part of management for mastitis: detection, individual cow analysis, and overall herd analysis.</p>
+        </div>
+        
+        <div class="top bottom">
+            <h2 class="somatic">Somatic Cell Counter</h2>
+            
+            <div class="app_img first">
+                <img src="http://2016.igem.org/wiki/images/6/66/T--Cornell_NY--Technology_App_SomaticCellCounter.png" class="iphone_img" id="img1">
+                <img src="http://2016.igem.org/wiki/images/b/b2/T--Cornell_NY--Technology_App_CostCalculatorScreen.png" class="iphone_img">
+                <img src="http://2016.igem.org/wiki/images/a/ae/T--Cornell_NY--Technology_App_SomaticCellCounterYN.png" class="iphone_img" id="img3">
+            </div>
+            
+            <p class="first">Somatic cells are the cells from the body of the cow that end up in the milk. The dairy industry is extremely strict about the concentration of these cells that can be in the milk farmers sell, and milk is thrown out if the somatic cell count (SCC) is too high. Cows with mastitis have a highly increased somatic cell count, and thus it is of huge importance to the farmers and consumers to quickly identify the cows with mastitis and have an accurate somatic cell count before giving the milk to the quality regulators testing the SCC. If the SCC is too high in a tank of milk, it is thrown out, and the farmer loses the entire income of the batch [1].</p>
+            
+            <p>According to the farmers and researchers we met with, the only way for farmers to get a quantitative SCC for each of their cows is to send the milk to facilities where lab technicians can analyze the samples. This can take between 18 hours and several days, according to Dr. Daryl Nydam, Director of Quality Milk Production Services at the Cornell University College of Veterinary Medicine. In New York state, where there is a huge emphasis on agricultural research, many farms are fortunate enough to only be an hour away from the nearest facility. However, farms in more rural areas as well as in the west and midwest often live much further away. Because it can take very long to package and transport samples and wait for the results, farms can only check the SCC of their cows once a month. Since it’s inefficient to check the SCC for a few individual cows, this is often neglected. Many farms may instead opt to have a technician come to their farm once a month to check the SCC of each cow in their herd. Overall, the process is time consuming, infrequent, and expensive [2].</p>
+            
+            <p>One of the ways lab technicians get the SCC is through direct microscopy using a dark blue L-W stain on the nuclear mass and a hemocytometer [3]. They recognize the nuclear masses in the hemocytometer grid and manually count them to get the average [3]. Our solution intends to bring that process from the lab to the dairy farms.</p>
+            
+            <p>We created the Somatic Cell Counter—an inexpensive, 3D printable, customized cow-side microscope that utilizes a smartphone camera to take the somatic cell count within our app. The Somatic Cell Counter seeks to speed up the cell-counting process by bringing the lab to the farm. We collaborated with iGEM Cambridge JCC 2015 to get their feedback from working on project Openscope, and ultimately decided on a more mobile design for carrying around the farm.</p>
+            
+            <p class="first">Our microscope uses a simple light, 30 mm lens, and smartphone camera to take pictures within the app of samples placed in a hemocytometer on the plexiglass surface. In this section of the Cowscope app, farmers can image their samples and save their microscope photos in one place for fast, efficient somatic cell counting. Soon, we will be adding a photo recognition feature which uses the same parameters the lab technicians use to recognize count the stained somatic cell nuclear masses within the top and left borders of the hemocytometer grid [3].</p>
+            
+            <div class="cowscope_img first">
+                <img src="http://2016.igem.org/wiki/images/b/be/T--Cornell_NY--Technology_App_Cowscope2.png" class="micro_img" id="micro1">
+                <img src="http://2016.igem.org/wiki/images/4/44/T--Cornell_NY--Technology_App_CowScopeTopView.png" class="micro_img">
+                <img src="http://2016.igem.org/wiki/images/2/2c/T--Cornell_NY--Technology_App_CowScopeGrass.png" class="grass_img" id="micro3">
+            </div>
+        </div>
+        
+        <div class="top bottom">
+            <h2 class="calculator">Cost Calculator</h2>
+            
+             <div class="app_img first">
+                <img src="http://2016.igem.org/wiki/images/4/40/T--Cornell_NY--Technology_App_CostCalculator.png" class="iphone_img" id="img1">
+                <img src="http://2016.igem.org/wiki/images/4/42/T--Cornell_NY--Technology_App_CostCalculatorTyping.png" class="iphone_img">
+                <img src="http://2016.igem.org/wiki/images/9/9a/T--Cornell_NY--Technology_App_CostCalculatorCompare.png" class="iphone_img" id="img3">
+            </div>
+            
+            <p class="first">The Cost Calculator aims to give farmers some quick metrics to weigh the potential financial costs of an infected cow. It includes the following three pages:</p>
+            
+            <ul id="list_item">Keep</ul>
+            
+            <ul>The Keep page allows farmers calculate the cost of keeping the cow. As a preliminary simplification we have included factors such as treatment time, milk product, and milk cost, but we acknowledge that there are more factors that determine the cost of taking care of an infected cow.</ul>
+            
+            <ul id="list_item">Discard</ul>
+            
+            <ul>The Discard page acts like the Keep page, except it takes in factors that determine the cost of “letting go of” or culling the cow.</ul>
+            
+            <ul id="list_item">Compare</ul>
+            
+            <ul>Finally, the Compare page compares the cost of keeping a cow to the cost of letting go of the cow. After inputting the data the app will highlight the less costly option in green, which farmers can use in their decision for treating an infected cow.</ul>
+        </div>
+        
+        <div class="top bottom">
+            <h2 class="data">Cow Data</h2>
+            
+            <div class="app_img first">
+                <img src="http://2016.igem.org/wiki/images/4/47/T--Cornell_NY--Technology_App_CowDataInfectionbyCow.jpeg" class="iphone_img" id="img1">
+                <img src="http://2016.igem.org/wiki/images/3/34/T--Cornell_NY--Technology_App_CowDataMilkProduction.jpeg" class="iphone_img" id="img2">
+                <img src="http://2016.igem.org/wiki/images/e/e5/T--Cornell_NY--Technology_App_CowInfo.png" class="iphone_img" id="img3">
+            </div>
+            
+            <p class="first">The Cow Data section shows farmers trends that may be overlooked in the day-to-day care of farms. It shows graphs such as infection by cow and milk production so that farmers can see if there is a certain cluster of cows that become infected repeatedly, and see how productive each cow is. We hope it highlights trends such as budding mastitis outbreaks, so that farmers can take preventive measures as early as possible.</p>
+        </div>
+        
+        <div class="top bottom references">
+            <h2>References</h2>
+            
+            <p class="first">[1] Reneau, Jeffrey K. Somatic Cell Counts: Measures of Farm Management and Milk Quality. N.p.: National Mastitis Council, 2001. Pdf.</p>
+            
+            <p>[2] Nydam, D. (2016, May 13). Personal interview.</p>
+            
+            <p>[3] Direct Microscopic Somatic Cell Count Guideline. (n.d.). Retrieved October 18, 2016, from https://foodsafety.foodscience.cornell.edu/sites/foodsafety.foodscience.cornell.edu/files/shared/documents/CU-DFScience-Notes-Milk-Somatic-Cell-Counting-06-10.pdf</p>
+        </div>
+        
+        <div class="footer">
+            <h3 class="cornell">Cornell iGEM</h3>
+            <a href="https://igem.engineering.cornell.edu/" class="igem_link">https://igem.engineering.cornell.edu/</a>
+        </div>
+        
+    </body>
+</html>

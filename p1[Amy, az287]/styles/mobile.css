@@ -1,0 +1,20 @@
+@media screen and (max-width: 480px) {
+
+    .nav_bar {
+        height: 22%;
+        width: 100%;
+    }
+        
+    #img1 {
+        padding-right: 0;
+    }
+    
+    #img3 {
+        padding-left: 0; 
+    }
+    
+    .igem_link {
+        left: 140px;
+    }
+
+}
